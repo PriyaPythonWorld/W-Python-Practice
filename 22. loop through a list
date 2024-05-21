@@ -1,0 +1,3 @@
+thisislist = ["apple", "banana", "cherry"]
+for i in thisislist:
+    print(i)
