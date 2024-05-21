@@ -1,0 +1,4 @@
+a = " Hello, World! "
+b = " Hello, World! "
+print(b)
+print(a.strip())
