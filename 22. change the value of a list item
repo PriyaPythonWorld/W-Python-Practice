@@ -1,0 +1,3 @@
+thisislist = ["apple", "banana", "cherry"]
+thisislist[1] = "blackcurrant"
+print(thisislist)
