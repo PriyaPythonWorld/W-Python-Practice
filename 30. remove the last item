@@ -1,0 +1,3 @@
+thisislist = ["apple", "banana", "cherry"]
+thisislist.pop()
+print(thisislist)
