@@ -1,0 +1,9 @@
+ thistuple = ("apple", "banana", "cherry")
+thistuple[1] = "black currant"
+print(thistuple)
+---------------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Priya\PycharmProjects\pythonProject4\change tuple values.py", line 2, in <module>
+    thistuple[1] = "black currant"
+    ~~~~~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
