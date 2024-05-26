@@ -1,0 +1,8 @@
+fruits = ["apple", "banana", "cherry"]
+for i in fruits[1]:
+    print(i)
+
+    # or
+
+for x in "apple":
+    print(x)
