@@ -1,0 +1,19 @@
+# import from module
+
+from mymodule import person1
+
+print(person1["age"])
+
+-------------------------------------------------------------------------------
+
+# mymodule.py
+
+def greeting(name):
+    # return f"Hello, {name}!"
+    print("Hello, " + name)
+
+person1 = {
+    "name": "John smith",
+    "age": 34,
+    "country": "Norway"
+}
