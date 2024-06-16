@@ -1,0 +1,16 @@
+# mymodule.py
+
+def greeting(name):
+    # return f"Hello, {name}!"
+    print("Hello, " + name)
+
+-------------------------------------------------------------------------------------------
+
+# use a module.py
+
+import mymodule
+
+# result = mymodule.greeting("Jonathan")
+# print(result)
+
+mymodule.greeting("John")
