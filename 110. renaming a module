@@ -1,0 +1,20 @@
+import mymodule as mx
+
+a = mx.person1["country"]
+aa = mx.person1["age"]
+print(a)
+print(aa)
+
+---------------------------------------------------------
+
+# mymodule.py
+
+def greeting(name):
+    # return f"Hello, {name}!"
+    print("Hello, " + name)
+
+person1 = {
+    "name": "John smith",
+    "age": 34,
+    "country": "Norway"
+}
